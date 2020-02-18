@@ -1,21 +1,14 @@
-/* SCSS Variables */
-
-/*--------------
-  Font
-  -------------- */
-$base-font: 'Spoqa Han Sans', 'Source Sans Pro', Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
-$code-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
-$code-gist-font: Menlo, 'Ubuntu Mono', Monaco, 'Spoqa Han Sans', monospace;
+// Font
+$base-font: 'Noto Sans KR', sans-serif;
+$code-font: 'Nanum Gothic Coding', monospace;
+$code-gist-font: 'Nanum Gothic Coding', monospace;
 
 $base-font-size: 18px;
 $base-font-size-sm: 14px;
 
 $mobile-font-size: 16px;
 
-
-/*--------------
-  Color
-  -------------- */
+// Color
 $base-color: $oc-gray-8;
 $base-lighten-color: $oc-gray-6;
 
@@ -31,11 +24,7 @@ $table-background-color: $oc-gray-1;
 
 $divider-color: $oc-gray-1;
 
-
-/*--------------
-  List
-  -------------- */
-
+// List
 $li-bottom-space: 0.8em;
 $li-bullets-width: 1.7em;
 $li-line-height: 1.55;
