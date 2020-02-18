@@ -1,11 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body>
-  <div class="content-container">
-    {{ content }}
+<html lang="{{ site.language }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }}{% endif %}</title>
+    
+        {% include font.html %}
+    
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/font.css">
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+        <link rel="alternate" type="application/rss+xml" title="RSS Feed for {{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
+    
+        {% if site.google-analytics %}
+            {% include google-analytics.html %}
+        {% endif %}
+    </head>
 
-    {% include footer.html %}
-  </div>
-</body>
+    <body>
+        <div class="content-container">
+            {{ content }}
+        
+            {% include footer.html %}
+        </div>
+    </body>
 </html>
