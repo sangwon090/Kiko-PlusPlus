@@ -1,9 +1,3 @@
-/* Post Typography */
-
-/*--------------
-  Body
-  -------------- */
-
 body {
   font: $base-font;
   font-size: $base-font-size;
@@ -18,9 +12,6 @@ body {
   }
 }
 
-/*--------------
-  Link
-  -------------- */
 a {
   color: $link-color;
   text-decoration: none;
@@ -31,10 +22,6 @@ a {
   }
 }
 
-
-/*--------------
-  Header
-  -------------- */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
@@ -73,21 +60,12 @@ h6 {
   color: $oc-gray-6; 
 }
 
-/*--------------
-  Body Text
-  -------------- */
-
 p {
   color: $text-color;
   margin: 0 0 1rem;
   line-height: 1.7em;
 }
 
-/*--------------
-  Lists
-  -------------- */
-
-//  Reset list
 ol, 
 ul,
 dl {
@@ -97,7 +75,6 @@ dl {
   list-style-image: none;
 }
 
-//  Positioning Bullets
 ol, 
 ul {
   > li {
@@ -112,7 +89,6 @@ ul {
   }
 }
 
-// Restyle <ul>
 ul {
   > li:before {
     content: "\2022";
@@ -123,7 +99,6 @@ ul {
   }
 }
 
-// Restyle <ol>
 ol {
   counter-reset: section;
 
@@ -137,7 +112,6 @@ ol {
   }
 }
 
-//  Refine Spacing
 ol, 
 ul {
   > li {
@@ -185,10 +159,6 @@ dd {
   }
 }
 
-/*--------------
-  
-  -------------- */
-
 hr {
   border: 0;
   border-top: 1px solid $divider-color;
@@ -223,10 +193,6 @@ blockquote {
   }
 }
 
-/*--------------
-  Footnote
-  -------------- */
-
 a.footnote {
   &,
   .post p &,
@@ -239,7 +205,7 @@ a.footnote {
     -webkit-text-stroke: 0.25px;
     border: 1px solid $divider-color;
     border-radius: 2px;
-    -webkit-transition: 0.2s ease-out all;
+    transition: 0.2s ease-out all;
     text-decoration: none;
 
     &:hover {
@@ -254,10 +220,6 @@ a.footnote {
   font-size: $base-font-size-sm;
 }
 
-/*--------------
-  Code Snippet
-  -------------- */
-
 code,
 pre {
   font-family: $code-font;
@@ -265,7 +227,7 @@ pre {
 
 code {
   padding: .25em .5em;
-  font-size: 85%;
+  font-size: 12pt;
   color: $code-color;
   background-color: $code-background-color;
   border-radius: 3px;
@@ -285,7 +247,7 @@ pre {
 
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 12pt;
   color: inherit;
   background-color: transparent;
 }
@@ -298,10 +260,6 @@ pre code {
 .highlight pre {
   margin-bottom: 0;
 }
-
-/*--------------
-  gist
-  -------------- */
 
 .gist .gist-file {
   font-family: $code-gist-font;
@@ -328,20 +286,12 @@ pre code {
   border-radius: 0;
 }
 
-/*--------------
-  Image
-  -------------- */
-
 img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
   border-radius: 5px;
 }
-
-/*--------------
-  Table
-  -------------- */
 
 table {
   margin-bottom: 1rem;
@@ -360,10 +310,6 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: $table-background-color;
 }
-
-/*--------------
-  Alignment
-  -------------- */
 
 .center {
   text-align: center;
