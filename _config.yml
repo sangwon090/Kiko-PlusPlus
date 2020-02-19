@@ -3,25 +3,25 @@ name: "Kiko++"
 language: 'en'
 
 author:
-  # facebook: 
+  # facebook:
   # youtubeUser: 
   # youtubeChannel: 
-  # twitter: 
-  # github: 
+  # twitter:
+  # github:
   # stackoverflow: 
-  # quora: 
+  # quora:
   # linkedin: 
   # pinterest: 
   # googlePlus: 
-  # instagram: 
-  # reddit: 
+  # instagram:
+  # reddit:
   # medium: 
   # tumblr: 
-  # email: 
+  # email:
 
 copyright:
   year: 2020
-  name: Kiko++
+  name: Kiko-PlusPlus
 
 google-analytics:
   # id: ""
@@ -38,6 +38,7 @@ permalink: /:year-:month-:day/:title/
 pagination:
   enabled: true
   per_page: 5
+  sort_field: 'date'
   sort_reverse: true
   title: ':title'
   permalink: '/page/:num/'
