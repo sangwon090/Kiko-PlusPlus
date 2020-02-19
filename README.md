@@ -4,6 +4,11 @@
 
 Kiko++ is forked from [Kiko-Plus](https://aweekj.github.io/Kiko-plus), which is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
+## Installation
+1. Clone or fork this repository.
+2. Edit `_config.yml`
+3. Done!
+
 ## License
 ```
 MIT License
