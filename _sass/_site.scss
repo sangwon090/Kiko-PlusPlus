@@ -166,7 +166,8 @@ body {
 
 .list {
   &-post {
-    padding: 4% 2%;
+    padding: 2% 2%;
+    margin-bottom: 2%;
     
     &:hover {
       background-color: $background-over-color;
