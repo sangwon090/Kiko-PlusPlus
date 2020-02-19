@@ -109,7 +109,7 @@ share: true
 ### 일반적인 코드
 
     <div id="awesome">
-      <p>This is great isn't it?</p>
+      <p>이거 엄청 멋지죠?</p>
     </div>
 
 --- 
