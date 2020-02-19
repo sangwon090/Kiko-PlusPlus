@@ -1,6 +1,6 @@
 # Kiko++
 
-![image](/images/image.png)
+![image](/images/sample.png)
 
 Kiko++ is forked from [Kiko-Plus](https://aweekj.github.io/Kiko-plus), which is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
 
