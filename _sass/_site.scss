@@ -27,10 +27,6 @@ body {
   }
 }
 
-
-/*--------------
-  Header
-  -------------- */
 .header {
   padding: 2%;
   margin-bottom: 1.5em;
@@ -52,7 +48,6 @@ body {
     span {
       color: $oc-gray-5;
     }
-
   }
 
   &-nav {
@@ -90,10 +85,6 @@ body {
   }
 }
 
-/*--------------
-  Page
-  -------------- */
-
 .page {
   &-title {
     margin-top: 0;
@@ -104,10 +95,6 @@ body {
   }
 }
 
-
-/*--------------
-  Post
-  -------------- */
 .post {
 
   &-title {
@@ -177,10 +164,6 @@ body {
 
 }
 
-/*--------------
-  Post list
-  -------------- */
-
 .list {
   &-post {
     padding: 4% 2%;
@@ -223,7 +206,6 @@ body {
     margin-top: 4rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    // text-transform: lowercase;
 
     &-previous {
       float: left;
@@ -254,10 +236,6 @@ body {
   }
 }
 
-
-/*--------------
-  Tags
-  -------------- */
 .tag {
   &-index {
     ul {
@@ -325,9 +303,6 @@ body {
   }
 }
 
-/*--------------
-  Archive
-  -------------- */
 .archive {
   &-list {
     &-post {
@@ -361,10 +336,6 @@ body {
   }
 }
 
-
-/*--------------
-  Footer
-  -------------- */
 .footer {
   text-align: center;
   font-size: .75rem;
