@@ -35,16 +35,8 @@ baseurl: ""
 timezone: Asia/Seoul
 permalink: /:year-:month-:day/:title/
 
-pagination:
-  enabled: true
-  per_page: 5
-  sort_field: 'date'
-  sort_reverse: true
-  title: ':title'
-  permalink: '/page/:num/'
-  trail: 
-    before: 2
-    after: 2
+paginate: 5
+paginate_path: "/blog/page/:num/"
 
 markdown: kramdown
 
@@ -81,5 +73,5 @@ defaults:
 
 plugins:
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-admin
