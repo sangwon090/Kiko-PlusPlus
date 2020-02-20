@@ -1,4 +1,4 @@
-name: "Kiko++"
+title: "Kiko++"
 
 language: "en"
 
@@ -79,7 +79,7 @@ defaults:
     values:
       layout: "post"
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
   - jekyll-admin
